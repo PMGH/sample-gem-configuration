@@ -22,12 +22,12 @@ Or install it yourself as:
 
 ## Useful links
 
-https://bundler.io/v1.17/guides/creating_gem.html
+- https://bundler.io/v1.17/guides/creating_gem.html
 
-https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/
-https://github.com/carrierwaveuploader/carrierwave#configuring-carrierwave
-https://robots.thoughtbot.com/mygem-configure-block
-https://github.com/thoughtbot/clearance
+- https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/
+- https://github.com/carrierwaveuploader/carrierwave#configuring-carrierwave
+- https://robots.thoughtbot.com/mygem-configure-block
+- https://github.com/thoughtbot/clearance
 
 ## TODO:
 
