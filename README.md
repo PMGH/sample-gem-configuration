@@ -19,3 +19,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install megalotto
+
+## TODO:
+
+Add a generator for the configuration template.
