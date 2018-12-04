@@ -20,6 +20,15 @@ Or install it yourself as:
 
     $ gem install megalotto
 
+## Useful links
+
+https://bundler.io/v1.17/guides/creating_gem.html
+
+https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/
+https://github.com/carrierwaveuploader/carrierwave#configuring-carrierwave
+https://robots.thoughtbot.com/mygem-configure-block
+https://github.com/thoughtbot/clearance
+
 ## TODO:
 
 Add a generator for the configuration template.
