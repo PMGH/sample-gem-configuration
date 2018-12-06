@@ -2,7 +2,8 @@ require "test_helper"
 
 class MegalottoTest < Minitest::Test
     def test_draw_count_initially_six
-        Megalotto::Configuration.new.drawing_count = 6
+        config = Megalotto::Configuration.new
+        assert_equal 6, config.drawing_count
     end
 
     def test_can_set_drawing_count
