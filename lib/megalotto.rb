@@ -1,6 +1,7 @@
 require "megalotto/version"
 require "megalotto/configuration"
 require "megalotto/drawing"
+require "pry-byebug"
 
 module Megalotto
   class << self
