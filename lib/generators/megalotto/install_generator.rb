@@ -12,11 +12,6 @@ module Megalotto
                 puts 'install generator create_initializer_file method accessed'
                 # template 'initializer.rb', 'config/initializers/megalotto.rb'
             end
-
-            def install
-                puts 'install generator install method accessed'
-                # template 'initializer.rb', 'config/initializers/megalotto.rb'
-            end
         end
     end
 end

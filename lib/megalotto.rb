@@ -1,8 +1,6 @@
 require "megalotto/version"
 require "megalotto/configuration"
 require "megalotto/drawing"
-require "megalotto/install_generator"
-require "pry-byebug"
 
 module Megalotto
   class << self
@@ -21,6 +19,3 @@ module Megalotto
     yield(configuration)
   end
 end
-
-binding.pry
-puts 'hi'
