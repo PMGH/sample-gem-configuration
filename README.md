@@ -30,6 +30,7 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 - [Ruby on Rails Guide: Generators](https://guides.rubyonrails.org/generators.html)
 - [Youtube: create a generator in your Gem](https://www.youtube.com/watch?v=2gfbhd7xDkE)
 - [Brandon Hilkert: Configuration file patterns in Gems](https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/)
+- [THoughtBot: Gem configuration](https://robots.thoughtbot.com/mygem-configure-block)
 
 
 
