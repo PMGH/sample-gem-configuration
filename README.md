@@ -34,7 +34,10 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 - https://github.com/thoughtbot/clearance
 
 
-## How to create generator
+---
+
+
+## Creating a generator
 
 - Folder structure:
 ```
@@ -63,11 +66,6 @@ module Megalotto
                 puts 'install generator create_initializer_file method accessed'
                 # template 'initializer.rb', 'config/initializers/megalotto.rb'
             end
-
-            def install
-                puts 'install generator install method accessed'
-                # template 'initializer.rb', 'config/initializers/megalotto.rb'
-            end
         end
     end
 end
@@ -82,7 +80,7 @@ Megalotto.configure do |config|
 end
 ```
 
-#### Build the Gem
+### Build the Gem
 
 - No need to require the generators in the megalotto.rb. Rails should be able to find the generator from the built gem `./pkg/megalotto-0.1.0.gem`.
 
@@ -90,7 +88,7 @@ end
 
 - `rake build` to create the built gem in `./pkg/megalotto-0.1.0.gem`
 
-#### Install the Gem
+### Install the Gem
 
 - Navigate to the project that will use the gem
 
@@ -99,6 +97,8 @@ end
 - Open the project Gemfile and add `gem 'megalotto'` to the dependencies
 
 - `bundle install`
+
+### Run the generator
 
 - `rails g` you should see the generator listed
 ```
