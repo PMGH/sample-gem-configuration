@@ -41,7 +41,7 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 
 - Folder structure:  
 
-![Folder structure image](./images/folder_structure.png)
+  <img src="./images/folder_structure.png" alt="Folder structure image" width="300" height="350">
 
 - Example generator
 
