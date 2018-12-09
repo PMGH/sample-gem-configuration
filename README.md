@@ -39,15 +39,9 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 
 ## Creating a generator
 
-- Folder structure:
-```
-lib/
-    generators/
-        [gem_name]/      # e.g. megalotto (directory)
-            [generator_name_generator.rb]
-            templates/   # (directory)
-                [template_name.rb]
-```
+- Folder structure:  
+
+![Folder structure image](./images/folder_structure.png)
 
 - Example generator
 
