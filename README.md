@@ -26,12 +26,11 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 
 ## Useful links
 
-- https://bundler.io/v1.17/guides/creating_gem.html
+- [Bundler: Create a Gem](https://bundler.io/v1.17/guides/creating_gem.html)
+- [Ruby on Rails Guide: Generators](https://guides.rubyonrails.org/generators.html)
+- [Youtube: create a generator in your Gem](https://www.youtube.com/watch?v=2gfbhd7xDkE)
+- [Brandon Hilkert: Configuration file patterns in Gems](https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/)
 
-- https://brandonhilkert.com/blog/ruby-gem-configuration-patterns/
-- https://github.com/carrierwaveuploader/carrierwave#configuring-carrierwave
-- https://robots.thoughtbot.com/mygem-configure-block
-- https://github.com/thoughtbot/clearance
 
 
 ---
