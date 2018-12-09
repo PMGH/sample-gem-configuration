@@ -46,6 +46,8 @@ Run generator to create initializer (in config/initializers/megalotto.rb):
 - Example generator
 
 ```ruby
+# lib/generators/megalotto/install_generator.rb
+
 require 'rails/generators'
 require 'rails/generators/base'
 
@@ -68,6 +70,8 @@ end
 - Example Template
 
 ```ruby
+# lib/generators/megalotto/templates/initializer.rb
+
 Megalotto.configure do |config|
     # Set drawing count configuration value
     config.drawing_count = 10
